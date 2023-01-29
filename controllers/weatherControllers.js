@@ -1,3 +1,6 @@
+//will not be used
+
+
 const weatherDAO = require("../models/weatherModel");
 
 const weather = new weatherDAO({filename:"weather.db", autoload: true});
