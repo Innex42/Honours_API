@@ -3,7 +3,7 @@ const { timetables } = require('./controllers/dbController');
 
 const millport = {
     id: "1",
-    Name: "Largs - Millport",
+    name: "Largs - Millport",
     operator: "Caledonian MacBrayne",
     route: [
         {
