@@ -5,3 +5,8 @@ exports.timetables = new Datastore({
     autoload: true,
 })
 
+exports.routes = new Datastore({
+    filename: 'db/routes.db',
+    autoload: true,
+})
+
