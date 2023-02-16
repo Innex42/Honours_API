@@ -8,7 +8,7 @@ exports.getAll = (req, res) => {
 };
 
 exports.getTest = (req, res) => {
-  timetables.find({'route.routeID':'mil-lar',}, (err, docs) => {
+  timetables.findOne({'route.routeID':'mil-lar',}, (err, docs) => {
     if (err) return console.log(err);
         res.json({ timetables: docs });
   });
