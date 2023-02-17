@@ -9,7 +9,7 @@ exports.getAll = (req, res) => {
 };
 
 exports.getTest = (req, res) => {
-    routes.findOne({ routeID: 'mil-lar', }, {_id: 0}, (err, docs) => {
+    routes.findOne({ routeID: 'mil-lar', }, {_id: 0, }, (err, docs) => {
         if (err) return console.log(err);
         res.json( docs );
         console.log(docs);
