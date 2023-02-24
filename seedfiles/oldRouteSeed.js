@@ -1,4 +1,4 @@
-const { routes } = require('./controllers/dbController');
+const { routes } = require('../controllers/dbController');
 
 routes.insert([
     {

@@ -1,4 +1,4 @@
-const { timetables } = require('./controllers/dbController');
+const { timetables } = require('../controllers/dbController');
 
 
 const millport = {

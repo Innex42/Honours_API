@@ -1,5 +1,7 @@
 const {timetables} = require('./dbController');
 
+let jsonData = require('../newRoutes.json');
+
 exports.getAll = (req, res) => {
     timetables.find({}, (err, docs) => {
         if (err) return console.log(err);
@@ -8,10 +10,7 @@ exports.getAll = (req, res) => {
 };
 
 exports.getTest = (req, res) => {
-  timetables.findOne({'route.routeID':'mil-lar',}, (err, docs) => {
-    if (err) return console.log(err);
-        res.json({ timetables: docs });
-  });
+  res.json(jsonData);
 };
 
 

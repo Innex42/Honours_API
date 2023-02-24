@@ -20,6 +20,10 @@ router.get('/routes/all', routesController.getAll);
 //get test route
 router.get('/routes/test', routesController.getTest);
 
+router.get('/routes/test2', routesController.getTest2);
+
+router.get('/gilltest', routesController.getGill);
+
 //get specific routes
 router.get('/routes/:routeID', routesController.getRoute);
 

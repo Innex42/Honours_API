@@ -10,3 +10,22 @@ exports.routes = new Datastore({
     autoload: true,
 })
 
+exports.gil_stm = new Datastore({
+    filename: 'db/gil-stm.db',
+    autoload: true,
+})
+
+exports.stm_gil = new Datastore({
+    filename: 'db/stm-gil.db',
+    autoload: true,
+})
+
+exports.lar_mil = new Datastore({
+    filename: 'db/lar-mil.db',
+    autoload: true,
+})
+
+exports.mil_lar = new Datastore({
+    filename: 'db/mil-lar.db',
+    autoload: true,
+})

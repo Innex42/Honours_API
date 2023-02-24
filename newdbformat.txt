@@ -1,0 +1,17 @@
+[
+    {
+        day:'monday',
+        timetables:[
+            {
+                departureTime: "09:30",
+                arrivalTime: "13:30",
+                duration: "1 Hour"
+            },
+            {
+                departureTime: "",
+                arrivalTime: "",
+                duration: ""
+            }
+        ]  
+    }
+]
