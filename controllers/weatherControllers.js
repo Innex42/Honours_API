@@ -28,7 +28,7 @@ const getTestData = async (body) => {
 const getWeatherData = async (body, place, date) => {
     const options = {
         'method': 'GET',
-        'url': 'https://weather.visualcrossing.com/VisualCrossingWebServices/rest/services/timeline/'+ place + '/'+ date + '/'+ date +'?unitGroup=uk&elements=datetimeEpoch%2Cwindgust%2Cwindspeed&include=hours&key=VR5ESUURZ5WXYAG4FBBJZJEMW&contentType=csv',
+        'url': 'https://weather.visualcrossing.com/VisualCrossingWebServices/rest/services/timeline/'+ place + '/'+ date + '/'+ date +'?unitGroup=uk&elements=datetime%2Cwindgust%2Cwindspeed&include=hours&key=VR5ESUURZ5WXYAG4FBBJZJEMW&contentType=csv',
         'headers': {
         },
         data: {
