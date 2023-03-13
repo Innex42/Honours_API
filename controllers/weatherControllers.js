@@ -1,10 +1,11 @@
 const axios = require('axios');
 const csvToJson = require('csvtojson');
+require('dotenv').config();
 
 const getTestData = async (body) => {
     const options = {
         'method': 'GET',
-        'url': 'https://weather.visualcrossing.com/VisualCrossingWebServices/rest/services/timeline/millport/2023-03-14/2023-03-14?unitGroup=uk&elements=datetimeEpoch%2Cwindgust%2Cwindspeed&include=hours&key=VR5ESUURZ5WXYAG4FBBJZJEMW&contentType=csv',
+        'url': process.env.weatherTestURL,
         'headers': {
         },
         data: {
@@ -28,7 +29,7 @@ const getTestData = async (body) => {
 const getWeatherData = async (body, place, date) => {
     const options = {
         'method': 'GET',
-        'url': 'https://weather.visualcrossing.com/VisualCrossingWebServices/rest/services/timeline/'+ place + '/'+ date + '/'+ date +'?unitGroup=uk&elements=datetime%2Cwindgust%2Cwindspeed&include=hours&key=VR5ESUURZ5WXYAG4FBBJZJEMW&contentType=csv',
+        'url': process.env.weatherURLStart + place + '/'+ date + '/'+ date + process.env.weatherURLEnd,
         'headers': {
         },
         data: {
