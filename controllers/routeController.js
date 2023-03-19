@@ -22,11 +22,14 @@ exports.getTest = (req, res) => {
 
 exports.getRoute = (req, res ) => {
     console.log(req.params)
-    routes.findOne({routeID: req.params.routeID}, (err, docs) => {
-      if (err) return console.log(err);
-          res.json({ routes: docs });
-          console.log('get route called');
-    });
+    
+    fs.readFile('./data/'+req.params.routeID+'/'+req.params.routeID+'-'+req.params.day+'.json', "utf8", (err, jsonString) => {
+        if (err) {
+            console.error(err);
+            return;
+        }
+        res.json(JSON.parse(jsonString));
+      })
   }
 
 exports.getTest2 = (req, res) => {
