@@ -2,7 +2,7 @@
 {
     "routeID": "lar-mil",
     "routeDeparturePoint": "Largs",
-    "routeDestination": "Millport/Isle of Cumbrae",
+    "routeDestination": "Millport",
     "timetables": [
       {
         "timetableID": 1,
