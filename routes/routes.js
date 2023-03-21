@@ -5,23 +5,24 @@ const routesController = require('../controllers/routeController');
 const weatherController = require('../controllers/weatherControllers');
 
 router.get('/', timetablesController.getTest)
-//get all timetables
+//get all timetables (not Used)
 router.get('/timetable/all', timetablesController.getAll);
 
-//get one prespecified timetable for testing & inital development
+//get one prespecified timetable for testing & inital development (not Used)
 router.get('/test/', timetablesController.getTest)
 
-//get timetable by route name or route ID for selected day 
+//get timetable by route name or route ID for selected day (not Used)
 router.get('/timetable/:id/:routeID/:day', timetablesController.getTimetable)
 
-//get all routes
+//get all routes (not Used)
 router.get('/routes/all', routesController.getAll);
 
-//get test route
+//get test route (not Used)
 router.get('/routes/test', routesController.getTest);
 
 router.get('/routes/test2', routesController.getTest2);
 
+//get new test data
 router.get('/gilltest', routesController.getGill);
 
 //get specific routes

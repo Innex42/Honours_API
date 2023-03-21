@@ -1,0 +1,43 @@
+[
+    {
+        "RouteName": "Largs - Millport",
+        "RouteOperator":["CalMac","Caledonian MacBrayne"],
+        "RoutePorts": [
+            "Largs",
+            "Millport"
+        ]
+    },
+    {
+        "RouteName": "Gills Bay - St Margaret's Hope",
+        "RouteOperator":["Pentland Ferries"],
+        "RoutePorts": [
+            "Gills Bay",
+            "St Margaret's Hope"
+        ]
+    },
+    {
+        "RouteName": "Bluemull",
+        "RouteOperator":["Shetland Ferries"],
+        "RoutePorts": [
+            "Gutcher, Yell",
+            "Belmont, Unst",
+            "Hamars Ness, Fetlar"
+        ]
+    },
+    {
+        "RouteName": "Westray - Papa Westray Passenger Service",
+        "RouteOperator":["Orkney Ferries"],
+        "RoutePorts": [
+            "Pierowall, Westray",
+            "Papa Westray"
+        ]
+    },
+    {
+        "RouteName": "Bute: Wemyss Bay - Rothesay",
+        "RouteOperator":["CalMac","Caledonian MacBrayne"],
+        "RoutePorts": [
+            "Wemyss Bay",
+            "Rothesay"
+        ]
+    }
+]
