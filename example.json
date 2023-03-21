@@ -1,0 +1,21 @@
+
+{
+    "routeID": "lar-mil",
+    "routeDeparturePoint": "Largs",
+    "routeDestination": "Millport",
+    "timetables": [
+      {
+        "timetableID": 1,
+        "timetableType": "winter",
+        "timetableOperationStart": "2022-10-24T00:00:00Z",
+        "timetableOperationEnd": "2023-03-30T23:59:59",
+        "monday":[
+            {
+                "departureTime": "09:45",
+                "arrivalTime": "10:55",
+                "duration": "10 Minutes"
+            }
+        ]
+      }
+    ]
+}
