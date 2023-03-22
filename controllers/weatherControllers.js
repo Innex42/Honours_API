@@ -27,25 +27,57 @@ const getTestData = async (body) => {
 //the date format required for visual crossing: 2023-03-14
 
 const getWeatherData = async (body, place, date) => {
-    const options = {
-        'method': 'GET',
-        'url': process.env.weatherURLStart + place + '/'+ date + '/'+ date + process.env.weatherURLEnd,
-        'headers': {
-        },
-        data: {
-            body
-        }
-    };
+    let testDateTime = new Date();
+    let testDate = ("0" + testDateTime.getDate()).slice(-2);
+    let testMonth = ("0" + testDateTime.getMonth()).slice(-2)
+    let testYear = testDateTime.getFullYear();
+    let reformatedDate = (`${testYear}-${testMonth}-${testDate}`)
+    let formatedPlace = place.replace(/ /g, "%20")
 
-    try {
-        const result = await axios(options);
-        //console.log(result);
-        const jsonResult =  await csvToJson().fromString(result.data)
-        
-        return (jsonResult);
-    } catch (e) {
-        console.log(e);
+    if (date ==reformatedDate){
+        const options = {
+            'method': 'GET',
+            'url': process.env.weatherURLStart + formatedPlace + '/today'  + process.env.weatherURLEnd,
+            'headers': {
+            },
+            data: {
+                body
+            }
+        };
+        try {
+            const result = await axios(options);
+            //console.log(result);
+            const jsonResult =  await csvToJson().fromString(result.data)
+            
+            return (jsonResult);
+        } catch (e) {
+            console.log(e);
+        }
+
+    } else{
+        const options = {
+            'method': 'GET',
+            'url': process.env.weatherURLStart + formatedPlace + '/'+ date + '/'+ date + process.env.weatherURLEnd,
+            'headers': {
+            },
+            data: {
+                body
+            }
+        };
+
+        try {
+            const result = await axios(options);
+            //console.log(result);
+            const jsonResult =  await csvToJson().fromString(result.data)
+            
+            return (jsonResult);
+        } catch (e) {
+            console.log(e);
+        }
     }
+   
+
+    
 }
 
 exports.getWeather = async (req, res) => {
