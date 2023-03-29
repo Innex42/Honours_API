@@ -1,0 +1,17 @@
+[
+    {
+        "departureTime":"15:30",
+        "arrivalTime":"15:55",
+        "duration":"25 Mins"
+    },
+    {
+        "departureTime": "17:30",
+        "arrivalTime": "17:55",
+        "duration": "25 Mins"
+    },
+    {
+        "departureTime": "19:25",
+        "arrivalTime": "19:50",
+        "duration": "25 Mins"
+    }
+]
