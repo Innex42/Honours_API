@@ -1,0 +1,117 @@
+[
+    {
+        "departureTime":"08:30",
+        "arrivalTime": "08:40",
+        "duration": "10 Mins"
+    },
+    {
+        "departureTime":"09:30",
+        "arrivalTime": "09:40",
+        "duration": "10 Mins"
+    },
+    {
+        "departureTime": "10:00",
+        "arrivalTime": "10:10",
+        "duration": "10 Mins"
+    },
+    {
+        "departureTime": "10:30",
+        "arrivalTime": "10:40",
+        "duration": "10 Mins"
+    },
+    {
+        "departureTime": "11:00",
+        "arrivalTime": "11:10",
+        "duration": "10 Mins"
+    },
+    {
+        "departureTime": "11:30",
+        "arrivalTime": "11:40",
+        "duration": "10 Mins"
+    },
+    {
+        "departureTime": "12:00",
+        "arrivalTime": "12:10",
+        "duration": "10 Mins"
+    },
+    {
+        "departureTime": "12:30",
+        "arrivalTime": "12:40",
+        "duration": "10 Mins"
+    },
+    {
+        "departureTime": "13:00",
+        "arrivalTime": "13:40",
+        "duration": "10 Mins"
+    },
+    {
+        "departureTime": "13:30",
+        "arrivalTime": "13:40",
+        "duration": "10 Mins"
+    },
+    {
+        "departureTime": "14:00",
+        "arrivalTime": "14:10",
+        "duration": "10 Mins"
+    },
+    {
+        "departureTime": "14:30",
+        "arrivalTime": "14:40",
+        "duration": "10 Mins"
+    },
+    {
+        "departureTime": "15:30",
+        "arrivalTime": "15:40",
+        "duration": "10 Mins"
+    },
+    {
+        "departureTime": "16:00",
+        "arrivalTime": "16:10",
+        "duration": "10 Mins"
+    },
+    {
+        "departureTime": "16:30",
+        "arrivalTime": "16:40",
+        "duration": "10 Mins"
+    },
+    {
+        "departureTime": "17:00",
+        "arrivalTime": "17:10",
+        "duration": "10 Mins"
+    },
+    {
+        "departureTime": "17:30",
+        "arrivalTime": "17:40",
+        "duration": "10 Mins"
+    },
+    {
+        "departureTime": "18:00",
+        "arrivalTime": "18:10",
+        "duration": "10 Mins"
+    },
+    {
+        "departureTime": "18:30",
+        "arrivalTime": "18:40",
+        "duration": "10 Mins"
+    },
+    {
+        "departureTime": "19:00",
+        "arrivalTime": "19:10",
+        "duration": "10 Mins"
+    },
+    {
+        "departureTime": "19:30",
+        "arrivalTime": "19:40",
+        "duration": "10 Mins"
+    },
+    {
+        "departureTime": "20:00",
+        "arrivalTime": "20:10",
+        "duration": "10 Mins"
+    },
+    {
+        "departureTime": "20:30",
+        "arrivalTime": "20:40",
+        "duration": "10 Mins"
+    }
+]
