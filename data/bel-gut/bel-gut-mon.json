@@ -1,0 +1,87 @@
+[
+    {
+        "departureTime": "06:25",
+        "arrivalTime": "06:35",
+        "duration": "10 Mins"
+    },
+    {
+        "departureTime": "07:00",
+        "arrivalTime": "07:10",
+        "duration": "10 Mins"
+    },
+    {
+        "departureTime": "07:30",
+        "arrivalTime": "07:40",
+        "duration": "10 Mins"
+    },
+    {
+        "departureTime": "08:00",
+        "arrivalTime": "08:10",
+        "duration": "10 Mins"
+    },
+    {
+        "departureTime": "08:25",
+        "arrivalTime": "08:40",
+        "duration": "10 Mins"
+    },
+    {
+        "departureTime": "09:50",
+        "arrivalTime": "10:00",
+        "duration": "10 Mins"
+    },
+    {
+        "departureTime": "11:35",
+        "arrivalTime": "11:45",
+        "duration": "10 Mins"
+    },
+    {
+        "departureTime": "12:05",
+        "arrivalTime": "12:15",
+        "duration": "10 Mins"
+    },
+    {
+        "departureTime": "13:45",
+        "arrivalTime": "13:55",
+        "duration": "10 Mins"
+    },
+    {
+        "departureTime": "14:15",
+        "arrivalTime": "14:25",
+        "duration": "10 Mins"
+    },
+    {
+        "departureTime": "14:45",
+        "arrivalTime": "14:55",
+        "duration": "10 Mins"
+    },
+    {
+        "departureTime": "15:55",
+        "arrivalTime": "16:05",
+        "duration": "10 Mins"
+    },
+    {
+        "departureTime": "16:45",
+        "arrivalTime": "16:55",
+        "duration": "10 Mins"
+    },
+    {
+        "departureTime": "17:15",
+        "arrivalTime": "17:25",
+        "duration": "10 Mins"
+    },
+    {
+        "departureTime": "18:30",
+        "arrivalTime": "18:40",
+        "duration": "10 Mins"
+    },
+    {
+        "departureTime": "20:45",
+        "arrivalTime": "20:55",
+        "duration": "10 Mins"
+    },
+    {
+        "departureTime": "22:30",
+        "arrivalTime": "22:40",
+        "duration": "10 Mins"
+    }
+]

@@ -1,0 +1,12 @@
+[
+    {
+        "departureTime": "16:00",
+        "arrivalTime": "16:25",
+        "duration": "25 Mins"
+    },
+    {
+        "departureTime": "21:40",
+        "arrivalTime": "22:05",
+        "duration": "25 Mins"
+    }
+]
